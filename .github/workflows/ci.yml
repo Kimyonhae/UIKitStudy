@@ -20,5 +20,5 @@ jobs:
           -project UIKitStudy.xcodeproj \
           -scheme UIKitStudy \
           -sdk iphonesimulator \
-          -destination 'platform=iOS Simulator,name=iPhone 15,OS=latest' \
+          -destination 'generic/platform=iOS Simulator' \
           -allowProvisioningUpdates
