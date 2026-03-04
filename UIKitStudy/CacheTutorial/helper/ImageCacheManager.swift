@@ -1,6 +1,7 @@
 import Foundation
 import UIKit
 
+@MainActor
 final class ImageCacheManager {
     static let instance: ImageCacheManager = .init()
     let cache = NSCache<NSString, UIImage>()
