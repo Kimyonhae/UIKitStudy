@@ -13,7 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
 
         let window = UIWindow(windowScene: windowScene)
-        let tutorialVC = CacheStudyCollectionVC()
+        let tutorialVC = SecondUIKitTutorialViewController()
         let nav = UINavigationController(rootViewController: tutorialVC)
 
         window.rootViewController = nav

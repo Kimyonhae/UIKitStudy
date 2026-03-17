@@ -59,8 +59,6 @@ final class SecondPageVC: UIViewController {
     private func setUpCollectionView() {
         bottomContent.delegate = self
         bottomContent.dataSource = self
-        // bounce 제거
-        bottomContent.bounces = false
     }
     
     private func setUpBottomLayoutConstraint() {
